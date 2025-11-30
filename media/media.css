@@ -1,0 +1,262 @@
+@media screen and (max-width: 1280px){
+    .lead{
+        width: 90%;
+    }
+
+    .page__intro{
+        margin: 92px 0px 0px 5%;
+    }
+
+    .photo-grid{
+        width: 90%;
+        grid-template-columns: repeat(3, 32%);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+    }
+
+    .places{
+        width: 90%;
+    }
+
+    .cover{
+        width: 100%;
+    }
+
+    .cover__content{
+        width: 560px;
+    }
+
+    .footer{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .page__header{
+        margin: 28px 24px 0px; 
+    }
+
+    .lead{
+        width: 100%;
+    }
+
+    .lead__caption{
+        margin-left: 24px;
+    }
+
+    .page__intro{
+        margin: 88px auto 0px;
+    }
+
+    .intro{
+        width: 94%;
+    }
+
+    .page__photo-grid{
+        margin: 88px auto 0px;
+    }
+
+    .photo-grid{
+        width: 94%;
+        grid-template-columns: repeat(2, 49%);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
+    }
+
+    .places{
+        width: 94%;
+        gap: 73px;
+    }
+    
+    .place__title{
+        font-size: 42px; 
+        line-height: 46px; 
+    }
+
+    .place__image{
+        height: 100%;
+    }
+
+    .place__main-text{
+        gap: 25px;
+    }
+
+    .place__text{
+        font-size: 16px;
+    }
+
+
+    .cover{
+        width: 100%;
+    }
+
+    .cover__content{
+        width: 560px;
+    }
+
+    .footer{
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page__header{
+        margin: 16px 16px 0px; 
+    }
+
+    .header__lang{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .header__icon{
+        width: 142px;
+        height: 42px;
+    }
+
+    .page__lead{
+        margin-top: 48px auto 0px;
+    }
+
+    .lead{
+        width: 100%;
+    }
+
+    .lead__title{
+        width: 90%;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 44px;
+    }
+
+    .lead__subtitle{
+        width: 90%;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px auto 0px;
+    }
+
+    .lead__title-picture{
+        margin-top: 40px;
+    }
+
+    .lead__caption{
+        margin-left: 16px;
+    }
+
+    .page__intro{
+        margin: 64px auto 0px;
+    }
+
+    .intro{
+        width: 90%;
+    }
+
+    .intro__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .page__photo-grid{
+        margin: 64px auto 0px;
+    }
+
+    .photo-grid{
+        width: 90%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 12px;
+    }
+
+    .page__places{
+        margin: 64px auto 66px;
+    }
+
+    .places{
+        width: 100%;
+        gap: 50px;
+    }
+
+    .place__row{
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .place__link{
+        width: 90%;
+        align-self: auto;
+    }
+    
+    .place__title{
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .place__image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .place__main-text{
+        width: 90%;
+        gap: 25px;
+    }
+
+    .place__text{
+        font-size: 16px;
+    }
+
+    .cover{
+        width: 100%;
+    }
+
+    .cover__content{
+        width: 288px;
+    }
+
+    .cover__title{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+    }
+
+    .cover__subtitle{
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .page__footer{
+        margin: 64px 0 24px 5%;
+    }
+
+    .footer{
+        width: 58%;
+        flex-direction: column;
+        justify-content: start;
+        text-align: left;
+        align-items: flex-start;
+        gap: 48px;
+
+    }
+
+    .footer__links{
+        gap: 32px;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .footer__link{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__copy{
+        
+        line-height: 14px;
+    }
+
+
+}

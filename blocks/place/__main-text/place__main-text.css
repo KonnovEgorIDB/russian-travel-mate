@@ -1,0 +1,6 @@
+.place__main-text{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    gap: 26px;
+}

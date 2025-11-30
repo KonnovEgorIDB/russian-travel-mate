@@ -1,0 +1,8 @@
+.photo-grid{
+    width: 92%;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(3, 1fr);
+    /* justify-content: space-evenly; */
+    gap: 16px;
+}
